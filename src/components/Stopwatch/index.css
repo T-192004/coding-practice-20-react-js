@@ -1,0 +1,74 @@
+.app-container {
+  position: relative;
+  padding: 20px;
+  height: 100vh;
+  background-size: cover;
+}
+
+.card-container {
+  position: relative;
+  top: 10%;
+  right: 550;
+  left: 15%;
+  width: 260px;
+  align-self: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.corner-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 70%;
+  border-top-left-radius: 500px;
+}
+.card-title {
+  color: #333333;
+  font-size: 36px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #ffffff;
+  box-shadow: 3px 3px 3px 3px #eadfdf;
+  padding-bottom: 20px;
+}
+.stopwatch-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.stopwatch-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'roboto';
+  font-weight: 500;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 60px;
+}
+.start-btn {
+  background-color: #1db05f;
+}
+.stop-btn {
+  background-color: #ef0d36;
+}
+.reset-btn {
+  background-color: #eaa800;
+}
